@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+}
+
+.bar {
+    height: 10px;
+    background-color: #ebb03b;
+    display: none;
+}
+
+.header-top {
+    display: flex;
+    padding: 10px;
+}
+
+.spacer {
+    height: 200px;
+}
+
+.header-main {
+    display: flex;
+    width: 100%;
+}
+
+.share-top {
+    background-color: #6d6d6d;
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.share-top > a {
+    font-family: sans-serif;
+    color: #dedede;
+    padding: 10px;
+}
+
+.share-top > a:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-area {
+    padding: 12px;
+    position: absolute;
+    right: 0;
+}
+
+.login-area > a {
+    padding: 14px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.login-area > a:hover {
+    color: #ebb03b;
+    cursor: pointer;
+}
+
+.main-left {
+    width: 50%;
+    height: 40px;
+}
+
+.main-mid {
+    
+}
+
+.logo {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.main-right {
+    width: 50%;
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    padding: 10px; 
+}
+
+.nav-left {
+    text-align: right;
+    width: 50%;
+}
+
+.nav-mid {
+    min-width: 320px;
+}
+
+.nav-right {
+    width: 50%;
+}
+
+.menu-item {
+    font-family: sans-serif;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.menu-item:hover {
+    color: #ebb03b;
+}
+
+.menu-item-left {
+    margin-left: 0px;
+}
+
+.menu-item-right {
+    margin-right: 0px;
+}
+
+.drop-parent {
+    position: relative;
+    background-color: aqua;
+}
+
+.drop-down {
+    position: relative;               /* to change drop down to absolute edit - postition: absolute and z-index high */
+    top: 0;
+    background-color: #333333;
+    height: 0px;
+    z-index: 0;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.drop-menu-content {
+    position: absolute;
+    max-width: 40%;
+    min-width: 800px;
+    margin: auto;
+    right: 0;
+    left:0;
+}
+
+.drop-content-left {
+    position: absolute;
+}
+
+.drop-content-right {
+    
+    float: right;
+}
+
+.locations-drop-menu {
+    display: none;
+}
+
+.menu-drop-menu {
+    display: none;
+}
+
+.drop-down h4 {
+    color: #ebb03b;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.drop-down p {
+    color: white;
+    font-size: 14px;
+    line-height: 11px;
+    font-family: sans-serif;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    background-color: darkgray;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-img {
+    height: 1950px;
+    z-index: -100;
+    
+}
+
+.hero-content {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+
+.overlay {
+    width: 1000px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.leaves-left {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    display: none;
+}
+
+.leaves-right {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    display: none;
+}
+
+.hero-button {
+    max-width: 150px;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: #15a8c4;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-bottom: 50px;
+    
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.hero-button:hover {
+    cursor: pointer;
+    background-color: #faea20;
+    color: #4a4a4a;
+}

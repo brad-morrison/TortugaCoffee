@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Tortuga Coffee</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    
+    <body>
+        <header>
+            <div class="bar"></div>
+            <div class="header-top">
+                <div class="share-top">
+                    <a>f</a>
+                    <a>t</a>
+                    <a>i</a>
+                    <a>s</a>
+                </div>
+                <div class="login-area">
+                    <a>Find a Store</a>
+                    <a>Login</a>
+                    <a>Join</a>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="header-main">
+                <div class="main-left"></div>
+                <div class="main-mid">
+                    <img class="logo" onmouseenter ="MouseOnLogo()" onmouseleave="MouseOffLogo()" src="LOGO.svg" height=300px>
+                </div>
+                <div class="main-right"></div>
+            </div>
+            <div class="menu">
+                <nav class="nav nav-left">
+                    <a id='1' class="menu-item menu-item-left" onmouseenter="navEnter('home')" onmouseout="DropDownClose()">Home</a>
+                    <a id='2' class="menu-item menu-item-left" onmouseenter="navEnter('locations')" onmouseout="DropDownClose()">Locations</a>
+                    <a id='3' class="menu-item menu-item-left" onmouseenter="navEnter('menu')" onmouseout="DropDownClose()">Menu</a>
+                </nav>
+                <nav class="nav nav-mid"></nav>
+                <nav class="nav nav-right">
+                    <a id='4' class="menu-item menu-item-right" onmouseenter="navEnter('careers')" onmouseout="DropDownClose()">Careers</a>
+                    <a id='5' class="menu-item menu-item-right" onmouseenter="navEnter('rewards')" onmouseout="DropDownClose()">Rewards</a>
+                    <a id='6' class="menu-item menu-item-right" onmouseenter="navEnter('about')" onmouseout="DropDownClose()">About</a>
+                </nav>
+                
+            </div>
+        </header>
+        <div class="drop-parent">
+            <div class="drop-down" id="drop-down-id" onmousemove="DropDownOpen()" onmouseleave="DropDownClose()">
+                <div class="drop-menu-content">
+                    <div class="locations-drop-menu" id='drop2'>
+                        <div class="drop-content-left">
+                            <h4>Locations</h4>
+                            <p class="link">New York, US</p>
+                            <p class="link">London, UK</p>
+                            <p class="link">Edinburgh, UK</p>
+                        </div>
+                        <div class="drop-content-right">
+                            <h4>Opening Soon</h4>
+                            <p class="link">Paris, FR</p>
+                            <p class="link">Milan, ITA</p>
+                            <h4>Find Us</h4>
+                            <p class="link">Interactive Map</p>
+                            <p class="link">Directions</p>
+                        </div>
+                    </div>
+                    <div class="menu-drop-menu" id='drop3'>
+                        <div class="drop-content-left">
+                            <h4>Drinks</h4>
+                            <p class="link">Bottled Drinks</p>
+                            <p class="link">Freshly Brewed Coffee</p>
+                            <p class="link">Iced Beverages</p>
+                            <p class="link">Frappucino Blended Beverages</p>
+                            <p class="link">Teas</p>
+                            <p class="link">Other Hot Drinks</p>
+                            <h4>Food</h4>
+                            <p class="link">Bakery</p>
+                            <p class="link">Hot Breakfast</p>
+                            <p class="link">Sandwiches and Paninis</p>
+                        </div>
+                    
+                        <div class="drop-content-right">
+                            <h4>Nutrition</h4>
+                            <p class="link">Bottled Drinks</p>
+                            <p class="link">Freshly Brewed Coffee</p>
+                            <p class="link">Iced Beverages</p>
+                            <p class="link">Frappucino Blended Beverages</p>
+                            <p class="link">Teas</p>
+                            <p class="link">Other Hot Drinks</p>
+                            <h4>Learn More</h4>
+                            <p class="link">Bakery</p>
+                            <p class="link">Hot Breakfast</p>
+                            <p class="link">Sandwiches and Paninis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <img class="overlay" src="Caribbean%20Infusion%20promo.png">
+            <img class="leaves-left" src="left.png">
+            <img class="leaves-right" src="right.png">
+            <button class="hero-button">Try it now!</button>
+            <img class="hero-img" src="beans-brown-coffee-34085.jpg">
+        </div>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
